@@ -1,0 +1,29 @@
+body {
+    background-color: #ffd740;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 0 !important;
+}
+
+.main-block {
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.mb-30 {
+    margin-bottom: 30px;
+}
+
+.mt-30 {
+    margin-top: 30px;
+}
+
+.btn--group button {
+    margin-right: 15px;
+}
