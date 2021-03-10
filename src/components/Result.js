@@ -10,17 +10,6 @@ export const Result = ({ quiz }) => {
         quiz.setError(false);
     }
 
-    if (quiz.error === true) {
-        <div className="container main-block">
-            <div className="row">
-                <div className="col s12">
-                        <p> Вы прошли тест </p>
-                </div>
-            </div>
-        </div>
-    }
-
-
     return (
         <>
             <div className="container main-block">
